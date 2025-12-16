@@ -27,8 +27,9 @@ You can play the game multiple times, choosing any of the available ranges. Each
 
 ---
 
-### Example(1):
+ ### Example (1)
 
+```
 Enter the end range 10, 100 or 1000:
 10
 The 'secret' number is: 2
@@ -37,10 +38,12 @@ Too High!
 The guess is: 2
 Correct!
 It took 2 guesses.
-Index: 1
-
+Index: 1 
+```
 ---
-### Example(2):
+ ### Example (2)
+ 
+ ```
 Enter the end range 10, 100 or 1000:
 100
 The 'secret' number is: 54
@@ -57,8 +60,8 @@ Too Low!
 The guess is: 54
 Correct!
 It took 6 guesses.
-Index: 53
-
+Index: 53 
+```
 ---
 
 ## How to Run  
