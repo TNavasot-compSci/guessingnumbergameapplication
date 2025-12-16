@@ -12,16 +12,21 @@ You are given three options for the end range: **10**, **100**, or **1000**.
 After selecting one of these options, a random secret number is generated within the chosen range.  
 The goal of this game is to measure how many attempts it takes to find the secret number by using the **Binary Search Algorithm**.
  
- ## How the Binary Search Algorithm work:
-The programme would calculate the halfway between 1 and your selected end range(10 or 100 or 1000).
-Once the programme find the halfway of that number, it then checks if the number is greater than 
-or less than or equal to the secret number.If the number is greater than the secret number, it searches the lower half
-of the current range. If the number is less than the secret number it searches the upper half of the current range. If it equal
-to the secret number then it is the correct answer, and then it also tells you the number of attempts that it takes to meet this given 
-secret number.
+### How the Binary Search Algorithm works:
 
-In conclusion, program constantly follows these checks and perform these steps to reach the secret number due to the use of binary search algorithm.However, you can play the game again and click the previously 
-chosen option of the end range or other given end ranges and it would automatically provide a different secret number since the programme generates a random number for the secret number within your selected range.
+Once the range is selected and the secret number is generated, the program executes the Binary Search Algorithm to find the secret number.  
+
+- The program calculates the halfway point between 1 and your selected end range (10, 100, or 1000).  
+- It then compares this halfway point to the secret number:  
+  - If the halfway point is **greater** than the secret number, the program searches the lower half of the current range.  
+  - If the halfway point is **less** than the secret number, it searches the upper half of the current range.  
+  - If the halfway point is **equal** to the secret number, the program has found the correct answer and reports the number of attempts taken.
+
+The program repeats these steps until it finds the secret number.
+
+---
+
+You can play the game multiple times, choosing any of the available ranges. Each time, the program generates a new random secret number within the selected range and calculates the number of attempts needed to find it.
 
 ### Example(1):
 
