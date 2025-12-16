@@ -23,10 +23,9 @@ Once the range is selected and the secret number is generated, the program execu
   - If the halfway point is **equal** to the secret number, the program has found the correct answer and reports the number of attempts taken.
 
 The program repeats these steps until it finds the secret number.
+You can play the game multiple times, choosing any of the available ranges. Each time, the program generates a new random secret number within the selected range and calculates the number of attempts needed to find it.
 
 ---
-
-You can play the game multiple times, choosing any of the available ranges. Each time, the program generates a new random secret number within the selected range and calculates the number of attempts needed to find it.
 
 ### Example(1):
 
