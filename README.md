@@ -65,7 +65,7 @@ Index: 53
 ---
 
 ## How to Run  
-To run the programme you need to compile all the files from the src folder and run the main class. 
+To run the programme you need to compile the Main.java file from the src folder and run the main class. 
 
 ## Programming language 
    Java
